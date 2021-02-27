@@ -1,0 +1,17 @@
+1- install webpack , webpack-cli
+2- initial webpack => npx webpack
+3- create a config file => webpack.config.js
+4- loader in webpack is to tell webpack how to load a certian type of files
+5- ///*** add plugins ***///
+- terser-webpack-plugin => use in dev mode
+this plugin to decrease bundle.js file size by minifiying it
+
+- MiniCssExtractPlugin => to create a sperate css bundle file 
+
+- caching => bundle.[contenthash].js 
+this will create new bundle file if there is a change happen on js file to update my browser caching files with it
+ -- to clean the old file => clean-webpack-plugin it remove all the file in  dist and add the new ones
+
+- html-webpack-plugin => to create new html file after we create new js or css file 
+
+- webpack-dev-server => to make my update happen instantly and see it on the web it like nodemon in the backend
