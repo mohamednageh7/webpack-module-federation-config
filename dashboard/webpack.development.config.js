@@ -58,7 +58,7 @@ module.exports = {
       name: 'App',
       remotes: {
         HelloWorldApp: 'HelloWorldApp@http://localhost:9001/remoteEntry.js',
-        ImageApp: 'ImageApp@http://localhost:9002/remoteEnty.js',
+        ImageApp: 'ImageApp@http://localhost:9002/remoteEntry.js',
       },
     }),
   ],
